@@ -10,55 +10,59 @@
   <body>
     <div class="container">
       <div class="slider-wrapper">
-        <input class="checkbox" type="radio" name="toggle" id="slide-toggle-1" checked/>
+        <input class="checkbox" type="radio" name="toggle" id="slide-toggle-1" checked />
         <input class="checkbox" type="radio" name="toggle" id="slide-toggle-2" />
         <input class="checkbox" type="radio" name="toggle" id="slide-toggle-3" />
         <input class="checkbox" type="radio" name="toggle" id="slide-toggle-4" />
-        <input class="checkbox" type="radio" name="toggle" id="slide-toggle-5" />
-        <input class="checkbox" type="radio" name="toggle" id="slide-toggle-6" />
 
-        <div class="slider">
-          <div class="slide slide-1"></div>
-          <div class="slide slide-2"></div>
-          <div class="slide slide-3"></div>
-          <div class="slide slide-4"></div>
-          <div class="slide slide-5"></div>
-          <div class="slide slide-6"></div>
+        <div id="slides" class="slider">
+          <div class="inner">
+            <div class="slide slide_1">
+              <img src="./assets/mem_1.jpg" alt="mem about cat" />
+            </div>
+            <div class="slide slide_2">
+              <img src="./assets/mem_2.jpg" alt="mem about cat" />
+            </div>
+            <div class="slide slide_3">
+              <img src="./assets/mem_3.jpg" alt="mem about cat" />
+            </div>
+            <div class="slide slide_4">
+              <img src="./assets/mem_4.jpg" alt="mem about cat" />
+            </div>
+          </div>
         </div>
 
         <div class="slides-content">
-          <blockquote class="slide-description">Хотел запрыгнуть хозяину на ручки, но он еще не надел свой новый джемпер (с)</blockquote>
-          <blockquote class="slide-description">Так хочется побегать по квартире и поорать, но сейчас... не 3 утра (с)</blockquote>
-          <blockquote class="slide-description">Хочется поиграть на кровати, но на ней нет чистой одежды (с)</blockquote>
-          <blockquote class="slide-description">Запрыгнул на стол, а скинуть от туда нечего (с)</blockquote>
-          <blockquote class="slide-description">Так хочется выйти из комнаты, но и остаться тоже хочется (с)</blockquote>
-          <blockquote class="slide-description">Так хочется поесть, но моя миска наполнена лишь на 90% (с)</blockquote>
+          <div class="inner">
+            <blockquote class="slide-description">
+              Хотел запрыгнуть хозяину на ручки, но он еще не надел свой новый джемпер (с)
+            </blockquote>
+            <blockquote class="slide-description">
+              Так хочется побегать по квартире и поорать, но сейчас... не 3 утра (с)
+            </blockquote>
+            <blockquote class="slide-description">
+              Хочется поиграть на кровати, но на ней нет чистой одежды (с)
+            </blockquote>
+            <blockquote class="slide-description">Запрыгнул на стол, а скинуть от туда нечего (с)</blockquote>
+          </div>
         </div>
 
         <div class="dots">
-            <label for="slide-toggle-1" class="dot-wrap dot-1">
-              <div class="dot"></div>
-            </label>
+          <label for="slide-toggle-1" class="dot-wrap dot-1">
+            <div class="dot"></div>
+          </label>
 
-            <label for="slide-toggle-2" class="dot-wrap dot-2">
-              <div class="dot"></div>
-            </label>
+          <label for="slide-toggle-2" class="dot-wrap dot-2">
+            <div class="dot"></div>
+          </label>
 
-            <label for="slide-toggle-3" class="dot-wrap dot-3">
-              <div class="dot"></div>
-            </label>
+          <label for="slide-toggle-3" class="dot-wrap dot-3">
+            <div class="dot"></div>
+          </label>
 
-            <label for="slide-toggle-4" class="dot-wrap dot-4">
-              <div class="dot"></div>
-            </label>
-
-            <label for="slide-toggle-5" class="dot-wrap dot-5">
-              <div class="dot"></div>
-            </label>
-
-            <label for="slide-toggle-6" class="dot-wrap dot-6">
-              <div class="dot"></div>
-            </label>
+          <label for="slide-toggle-4" class="dot-wrap dot-4">
+            <div class="dot"></div>
+          </label>
         </div>
       </div>
     </div>
